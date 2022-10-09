@@ -25,6 +25,7 @@
   "homepage": "https://github.com/obviouslyquell/gorzdravCheck#readme",
   "dependencies": {
     "axios": "^1.1.2",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "vercel": "^28.4.8"
   }
 }
