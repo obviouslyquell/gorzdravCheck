@@ -1,0 +1,29 @@
+{
+  "name": "gorzdrav",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obviouslyquell/gorzdravCheck.git"
+  },
+  "keywords": [
+    "gorzdravBot"
+  ],
+  "author": "obviouslyquell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obviouslyquell/gorzdravCheck/issues"
+  },
+  "homepage": "https://github.com/obviouslyquell/gorzdravCheck#readme",
+  "dependencies": {
+    "axios": "^1.1.2"
+  }
+}
