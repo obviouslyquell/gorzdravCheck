@@ -9,7 +9,7 @@ bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id
     let oldValue = 1;
     const interval = setInterval(() => {
-        axios.get('https://gorzdrav.spb.ru/_api/api/v2/schedule/lpu/1091/specialties')
+        axios.get('https://gorzdrav.spb.ru/_api/api/v2/schedule/lpu/229/specialties')
         .then(res => {
 
         const message = res.data.result.map((item) => {
